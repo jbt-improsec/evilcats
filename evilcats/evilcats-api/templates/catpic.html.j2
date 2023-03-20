@@ -1,0 +1,7 @@
+<html>
+    <body>
+        {% for image in images %}
+            <img src="{{ url_for('static', path='cats/' + image) }}" alt="catpic??"/>
+        {% endfor%}
+    </body>
+</html>
