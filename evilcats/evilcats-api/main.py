@@ -8,7 +8,7 @@ from PIL import Image
 import datetime
 import os
 
-#python -m uvicorn main:app --reload 
+#python -m uvicorn main:app --reload --host [host-ip] --port [port]
 # to run the server
 
 app = FastAPI()
